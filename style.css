@@ -1,0 +1,81 @@
+:root {
+  --azul: #1ea6c8;
+  --background: #fafafa;
+  --gradient-1: #343e63;
+  --gradient-2: #2a3352;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-color: #f2f2f2; /* cor inicial */
+  transition: background-color 0.5s; /* efeito de transição */
+}
+/* cores adicionais para fazer alteração do body*/
+.cor1 {
+  background-color: #69bcf3;
+}
+.cor2 {
+  background-color: #b3c0c5;
+}
+.cor3 {
+  background-color: #505b85;
+}
+.cor4 {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: var(--gradient-2);
+}
+
+#lista {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gradient-2);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-container {
+  width: 600px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 350px;
+  gap: 10px;
+  border: solid 2px;
+  border-radius: 0px 20px 0px 20px;
+  padding: 0, 5rem;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background: var(--azul);
+  padding: 1rem 3rem;
+  border-radius: 1rem 1rem 0 0;
+  font-size: 1.4rem;
+}
+button:hover {
+  color: var(--background);
+  background: var(--gradient-1);
+}
+input {
+  border: 2px solid lightgray;
+  background: transparent;
+  padding: 1rem 0;
+  width: 25rem;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 1rem 1rem;
+}
+#mensagem {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gradient-2);
+}
+
